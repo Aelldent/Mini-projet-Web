@@ -1,0 +1,72 @@
+@CHARSET "ISO-8859-1";
+
+h1
+{
+	color : red;
+}
+
+h3
+{
+	colr : orange;
+}
+
+#entete
+{
+   width: 1100px;
+   height: 150px;
+   background-image: url("entete.jpg");
+   background-repeat: repeat;
+   margin-bottom: 10px;
+}
+
+/* Le menu */
+#menu
+{
+   float: left; /* Le menu flottera à gauche */
+   width: 200px; /* Très important : donner une taille au menu */
+}
+
+.element_menu
+{
+   background-color: #626262;
+   background-image: url("menuGauche.jpg");
+   background-repeat: no-repeat;
+   
+   border: 2px solid black;
+   
+   margin-bottom: 15px; /* Pour éviter que les éléments du menu ne soient trop collés */
+}
+
+/* Je sélectionne les <li> du menu horizontal */
+ul#menu_horizontal li 
+{ 
+	display : inline-block;
+	/*padding-right : 0.5em;*/
+	padding : 0 0.5em; /* Pour espacer les boutons entre eux */
+	border : 1px solid black;
+	background-color : orange;
+}
+ul#menu_horizontal 
+{
+	list-style-type : none; /* Car sinon les puces se placent n'importe où */
+	text-align : center;
+	text-indent : 2px;
+	font-size: 18px;/* taille du texte */
+	width : 1000px;
+	height : 25px;
+}
+
+#pied_de_page
+{
+   padding: 5px;
+   clear: both;
+
+   text-align: center;
+
+   color: #B3B3B3;
+   background-color: #626262;
+   background-image: url("Ace2.jpg");
+   background-repeat: repeat-x;
+   
+   border: 2px solid black;
+}
